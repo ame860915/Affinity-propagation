@@ -1,0 +1,8 @@
+from sklearn.cluster import AffinityPropagation
+
+from inspect import signature		#這個可以看內部參數
+
+sig = signature(AffinityPropagation)
+str(sig)
+#print(str(sig))
+print(sig)
